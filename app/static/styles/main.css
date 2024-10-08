@@ -1,0 +1,141 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: #f8f9fa;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.navbar-nav .nav-link {
+  color: #000;
+}
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+.hero-section {
+  background-color: #fff3f3;
+  padding: 50px 70px;
+  display: flex;
+  justify-items: space-around;
+  align-items: center;
+}
+.hero-section h1 {
+  color: #ff4d4d;
+  font-size: 36px;
+}
+.hero-section p {
+  color: #666;
+  font-size: 18px;
+}
+.hero-section .btn {
+  background-color: #ff4d4d;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.hero-section .container,
+.image {
+  width: 50%;
+  padding: 20px;
+}
+
+.hero-section .image {
+  text-align: center;
+}
+
+.sale-section {
+  text-align: center;
+  padding: 30px 0;
+}
+.sale-section h2 {
+  color: #ffcc00;
+  font-size: 28px;
+}
+.navigate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.navigate .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 25%;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.bttn {
+  width: 100%;
+}
+.for_her,
+.for_him {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+.product-card {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.product-card img {
+  width: 100%;
+}
+.product-card .card-body {
+  text-align: center;
+}
+.product-card .card-title {
+  font-size: 16px;
+  color: #333;
+}
+.product-card .card-text {
+  color: #999;
+  font-size: 14px;
+}
+.product-card .price {
+  color: #ff4d4d;
+  font-size: 18px;
+}
+.product-card .old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+}
+.category-section {
+  text-align: center;
+  padding: 30px 0;
+}
+.category-section .btn {
+  background-color: #ffcc00;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.why-choose-section {
+  text-align: center;
+  padding: 50px 0;
+}
+.why-choose-section h2 {
+  color: #ffcc00;
+  font-size: 28px;
+}
+.why-choose-section p {
+  color: #666;
+  font-size: 18px;
+}
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer .footer-item {
+  margin-bottom: 10px;
+}
+.footer .footer-item i {
+  color: #ffcc00;
+  margin-right: 10px;
+}

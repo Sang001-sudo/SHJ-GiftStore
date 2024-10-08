@@ -1,0 +1,256 @@
+{% extends 'base.html' %} {% block title %} SHJ - Home {% endblock %} {% block
+main %}
+
+<div class="hero-section">
+  <div class="container">
+    <h1>Perfect Gift Box for your loved ones</h1>
+    <p>Top quality gift packs for your Loved ones. 20% off website</p>
+    <a class="btn" href="#"> Order right away </a>
+  </div>
+  <div class="image">
+    <img src="{{ url_for('static', filename='images/gifts.png') }}" alt="" srcset="" />
+  </div>
+</div>
+<div class="sale-section">
+  <div class="container">
+    <h2>On Sale right now</h2>
+
+    <div class="navigate">
+      <div class="container">
+        <div class="bttn">
+          <input
+            type="radio"
+            class="col-md-6 btn-check"
+            name="options-base"
+            id="option5"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn" for="option5">For Her</label>
+        </div>
+        <div class="bttn">
+          <input
+            type="radio"
+            class="col-md-6 btn-check"
+            name="options-base"
+            id="option6"
+            autocomplete="off"
+          />
+          <label class="btn" for="option6">For Him</label>
+        </div>
+      </div>
+    </div>
+
+    <div class="for_her">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for her"
+              height="300"
+              src="/images/1tem3.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                FEMALE STAINLESS STEEL WRIST WATCH SET COMES WITH
+                BRACELETS.Perfect Gift for her
+              </h5>
+              <p class="card-text">Discounted: N25,000.00</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for her"
+              height="300"
+              src="/images/item1.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ladies Set Watch</h5>
+              <p class="card-text">Discounted: N30,000</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for her"
+              height="300"
+              src="/images/item2.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                FEMALE STAINLESS STEEL WRIST WATCH SET COMES WITH
+                BRACELETS.Perfect Gift for her
+              </h5>
+              <p class="card-text">Discounted: N25,000.00</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for her"
+              height="300"
+              src="/images/item1.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ladies Set Watch</h5>
+              <p class="card-text">Discounted: N30,000.00</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="for_him">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for him"
+              height="300"
+              src="/images/1tem3.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                FEMALE STAINLESS STEEL WRIST WATCH SET COMES WITH
+                BRACELETS.Perfect Gift for her
+              </h5>
+              <p class="card-text">Discounted: N30,000</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for him"
+              height="300"
+              src="/images/item1.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ladies Set Watch</h5>
+              <p class="card-text">Discounted: N30,000.00</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for him"
+              height="300"
+              src="/images/1tem3.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ladies Set Watch</h5>
+              <p class="card-text">Discounted: N30,000</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img
+              alt="Gift for him"
+              height="300"
+              src="/images/item2.jpeg"
+              width="300"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                FEMALE STAINLESS STEEL WRIST WATCH SET COMES WITH
+                BRACELETS.Perfect Gift for her
+              </h5>
+              <p class="card-text">Discounted: N25,000.00</p>
+              <p class="old-price">Original: N27,000.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="category-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            alt="Items on Sale"
+            height="200"
+            src="/images/item1.jpeg"
+            width="300"
+          />
+          <div class="card-body">
+            <a class="btn" href="#"> Shop Now </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            alt="Men gift packs"
+            height="200"
+            src="/images/1tem3.jpeg"
+            width="300"
+          />
+          <div class="card-body">
+            <a class="btn" href="#"> Shop Now </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            alt="Women gift packs"
+            height="200"
+            src="/images/item2.jpeg"
+            width="300"
+          />
+          <div class="card-body">
+            <a class="btn" href="#"> Shop Now </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="why-choose-section">
+  <div class="container">
+    <h2>Why choose SHJ Store?</h2>
+    <p>
+      SHJ collections, a reputable online store has been existing for more than
+      3 years. Our customers love us for many reasons.
+    </p>
+  </div>
+</div>
+<div class="category-section">
+  <div class="container">
+    <a class="btn" href="#"> Browse valentine items </a>
+  </div>
+</div>
+<div class="why-choose-section">
+  <div class="container">
+    <h2>We are loved by our clients</h2>
+    <p>
+      Over time, we've built a community of loyal customers who keep insisting
+      that we remain in business because we deliver top quality.
+    </p>
+  </div>
+</div>
+
+{% endblock %}
